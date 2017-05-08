@@ -1,0 +1,155 @@
+/*------------GENERAL------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 88%;
+    margin: 0 auto;
+    overflow: auto; /*fix overflow*/
+    border: 1px solid red;
+}
+
+
+.clearfix { /*se agrega un div y se incluye este selector*/
+    *zoom:l;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/*-------------------------------------header-------------------------------------*/
+.nav-header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    position: fixed;
+    background: rgba( 192, 175, 175, 0.6 );
+}
+nav-header section {
+  position: relative;
+}
+nav > section > * {
+  padding: 14px 0;
+  display: inline-block;
+}
+#nav-left {
+  float: left;
+}
+ul > li  {
+  display: inline-block;
+  list-style: none;
+  padding: 0 7px;
+}
+li > a {
+  text-decoration: none;
+}
+.select::before {
+
+}
+#nav-icono {
+  width: 5%;
+  left: 50%;
+  position: absolute;
+
+}
+#nav-right {
+  float: right;
+}
+#nav-right * {
+  padding: 0 7px;
+  display: inline-block;
+}
+.imagen{
+  width: 28px;
+  border-radius: 50%;
+
+}
+/*-------------------------------------MIS TRES SECCIONES-------------------------------------*/
+main > div.container {
+  position: relative;
+  top: 56px;
+}
+div.container > *{
+    float: left;
+    display: inline-block;
+    width: 32%;
+    border: 1px solid blue;
+    border-radius: 7px;
+}
+#datos {
+  width: 287px;
+  height: 210px;
+  position: relative;
+}
+.portada > img{
+  width: 100%;
+}
+.contenido *{
+  position: absolute;
+}
+.contenido img{
+  width: 56px;
+  bottom: 43%;
+  left: 4%;
+  border: 2px solid #fff;
+  border-radius: 7px;
+}
+
+#posts {
+  margin: 0 10px;
+}
+/*------------GRID SYSTEM ------------*/
+/*
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+[class*="col-"] {
+    min-height: 7px;
+    padding: 12px;
+    float: left;
+}
+.col-1 {
+    width: 8.33333%;
+}
+.col-2 {
+    width: 16.666667%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.333333%;
+}
+.col-5 {
+    width: 41.666667%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.333333%;
+}
+.col-8 {
+    width: 66.666667%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.3333%
+}
+.col-12 {
+    width: 100%;
+}
+*/
