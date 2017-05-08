@@ -29,15 +29,18 @@
 }
 .icon-message:before {
   content: "\e901";
+  color: #66757f
 }
 .icon-check:before {
   content: "\f03a";
 }
 .icon-home:before {
   content: "\f08d";
+  color: #66757f
 }
 .icon-search:before {
   content: "\f02e";
+  color: #e6ecf0;
 }
 .icon-check-cir:before {
   content: "\e904";
@@ -47,11 +50,13 @@
 }
 .icon-twitter:before {
   content: "\ea96";
+  font-size: 23px;
+  color: #1DA1F2;
 }
 .icon-notification:before {
   content: "\e903";
+  color: #66757f
 }
 .icon-add-user:before {
   content: "\e900";
 }
-
